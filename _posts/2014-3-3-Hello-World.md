@@ -30,15 +30,15 @@ $$C(s, t) = (x(s,t),y(s,t))$$
 
 我们使用不同的$$F$$，会得到不同的曲线演化的效果：
 
-![k and curvature](/wwjwhen_blog/images/kandc.png)
+![k and curvature](/wwjwhen.github.io/images/kandc.png)
 
 如果我们想让曲线实现如下的演化：
 
-![c1toc2](/wwjwhen_blog/images/c12c2.png)
+![c1toc2](/wwjwhen.github.io/images/c12c2.png)
 
 除了上述的参数曲线的演化，一个精妙的思想--水平集方法就横空出世了，具体的思想就是利用高维在低维上的零水平面的投影轮廓表示平面的轮廓，如此一来平面上的演化就变成了高维函数的演化问题，如下图所示：
 
-![l12l2](/wwjwhen_blog/images/level12level2.png)
+![l12l2](/wwjwhen.github.io/images/level12level2.png)
 
 **关于水平集函数和水平集曲线的有用的分析结论**
 
@@ -71,11 +71,11 @@ dist(x,C) & if\ x\ is\ outside\ C\\
 
 表示如下图所示：
 
-![init](/wwjwhen_blog/images/init.png)
+![init](/wwjwhen.github.io/images/init.png)
 
 但是这样的演化公式还是会有不小的问题，随着演化过程的继续，水平集函数$$\phi$$不再保持模长为1的良好性质了如下图所示：
 
-![degrade](/wwjwhen_blog/images/degrade.png)
+![degrade](/wwjwhen.github.io/images/degrade.png)
 
 所以有人提出了重新初始化的概念，重新初始化的公式如下，宗旨就是重新使得水平集函数恢复模长为1的性质：
 
@@ -160,7 +160,7 @@ $$D = \mu\left | d_p(s) \right | < \mu$$
 
 进一步地，我们可以知道我们的$$d_p(s)$$函数如下图所示：
 
-![newdp](/wwjwhen_blog/images/newdp.png)
+![newdp](/wwjwhen.github.io/images/newdp.png)
 
 通过函数的曲线，我们可以看到扩散率的正负。
 
