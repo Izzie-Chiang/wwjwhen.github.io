@@ -53,9 +53,9 @@ void myMergeSort(int a[], int low, int high)
 ~~~~
 {: .language-c++}
 
-![mergesort1](/wwjwhen_blog/images/merge-sort.png)
+![mergesort1](/wwjwhen.github.io/images/merge-sort.png)
 
-![mergesort2](/wwjwhen_blog/images/merge-sort2.png)
+![mergesort2](/wwjwhen.github.io/images/merge-sort2.png)
 
 从上面的代码可以看出其实非常像是二叉树的遍历过程，anyway, just a templete, remember it~
 

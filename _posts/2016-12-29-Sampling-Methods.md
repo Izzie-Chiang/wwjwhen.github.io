@@ -33,7 +33,7 @@ $$p(z) = \frac{1}{Z_p}\widetilde{p}(z)$$
 可以理解为我们是**依概率**来决定是否接受$$z_0$$，而这种间接的方式就能使得我们从$$q(z)$$的抽样得到$$\widetilde{p}(z)$$的抽样，又因为$$Z_p$$只是常数，所以我们的抽样就可以表征
 $$p(z)$$的分布。
 
-![rejection](/wwjwhen_blog/images/rejection.png)
+![rejection](/wwjwhen.github.io/images/rejection.png)
 
 很显然，在高维空间下不仅有envelope函数难以寻找的缺点，还有因为维度上升引起的接受率骤减的情况，由此来看rejection sampling确实不适用于多变量的抽样。
 
@@ -62,7 +62,7 @@ $$p(z)$$的分布。
 
 这是非常重要的一种抽样的方法，应用比较广。
 
-![gibbs1](/wwjwhen_blog/images/gibbs1.png)
+![gibbs1](/wwjwhen.github.io/images/gibbs1.png)
 
 从算法上来看这是一个非常straightforward的算法，但是就像我们之前对MC抽样算法的认识，他是需要满足distribuion invariant的。当我们在采样的时候条件条件部分的联合概率分布是不变的，
 同时采样得到的条件概率也是原分布的，于是新的变量和旧的变量的联合分布都是源分布的，所以分布是不变的。
@@ -71,7 +71,7 @@ $$p(z)$$的分布。
 
 但是当待抽样分布的变量间的相关性比较强的时候Gibbs方法的效果就会有所降低，下图是二元高斯分布的Gibbs抽样结果，（a）表示的两个变量间相关性比较弱，（b）表示的是两个变量之间的相关性比较强
 
-![gibbs](/wwjwhen_blog/images/gibbs.png)
+![gibbs](/wwjwhen.github.io/images/gibbs.png)
 
 *references*
 

@@ -35,11 +35,11 @@ observations above and below the median
 对应关系。自然推演出其他的分位数是否也可以通过一个优化的问题得到定义的想法。谈到优化的问题，损失函数的定义是非常重要的， 而我们的
 分位数就是通过中位数的损失函数的略微变形形成的。在原著的论文中被称作tilted absolute value function,大约长成这样：
 
-![tilted absolute](/wwjwhen_blog/images/tilted.png)
+![tilted absolute](/wwjwhen.github.io/images/tilted.png)
 
 而我们的普通的绝对值函数长得是这样的：
 
-![absolute](/wwjwhen_blog/images/absolute.png)
+![absolute](/wwjwhen.github.io/images/absolute.png)
 
 由此来看，解决如下的问题的最优解（其中 $$ y_i $$ 是样本）：
 

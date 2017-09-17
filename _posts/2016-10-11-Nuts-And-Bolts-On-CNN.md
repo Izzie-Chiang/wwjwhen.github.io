@@ -38,7 +38,7 @@ local translation can be a very useful property if we care more about whether so
 The picture shows that though all the points in the former layer have changed, only one half of the points in the upper layer change their values.
 
 
-![PCA](/wwjwhen_blog/images/maxpool.png)
+![PCA](/wwjwhen.github.io/images/maxpool.png)
 
 Another perspective of convolution and pooling is the **Bayesian view**. The two operations can be treated as **infinitely strong prior**(beliefs on 
 the model before we see any data) of the model. This infinitely strong prior says that the weights for one hidden unit must be identical to the weights

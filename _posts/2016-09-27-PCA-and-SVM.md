@@ -25,7 +25,7 @@ decomposition**, in which the **eigen values** indicate the degree of dispersion
 of the projection.
 PCA can be applied to **moderate or relatively small** data sets, otherwise the computing complexity will explode.
 
-![PCA](/wwjwhen_blog/images/pca.png)
+![PCA](/wwjwhen.github.io/images/pca.png)
 
 SVM, as it was originally come up with, is mainly used as a method of **classifying**(*maximum margin classifier*). 
 It has been popular for a long time for solving problems in classification, regression, and novelty detection. An 
@@ -33,7 +33,7 @@ important property of support vector machines is that the determination of the m
 **convex optimization** problem, and so any local solution is also a global optimum. The convinence in optimazation is
 one of the reasons that why SVM has been widely welcomed in both industry and labs.
 
-![svm](/wwjwhen_blog/images/svm.png)
+![svm](/wwjwhen.github.io/images/svm.png)
 
 *references*
 
