@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 为什么$L_1$范数可以保证稀疏性
+title: 为什么L1范数可以保证稀疏性
 ---
 
 <p class="meta">16 December 2018 - Beijing</p>
