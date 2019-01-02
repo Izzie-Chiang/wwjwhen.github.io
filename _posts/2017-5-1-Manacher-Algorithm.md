@@ -35,6 +35,6 @@ string Manacher(string s) {
     }
     return s.substr((resCenter - resLen) / 2, resLen - 1);
 }
-~~~
+~~~~
 {: .language-c++}
 

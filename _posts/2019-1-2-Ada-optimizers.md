@@ -193,5 +193,5 @@ def sgd(lr, tparams, grads, x, mask, y, cost):
 
     return f_grad_shared, f_update
 
-~~~
+~~~~
 {: .language-python}
